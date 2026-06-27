@@ -1,0 +1,2 @@
+# Netlify: serve the SPA for any path so client-side routes like /admin work.
+/*    /index.html   200

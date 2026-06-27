@@ -1,0 +1,30 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-0000000000d1",
+    "name": "Cyprus (Domestic)",
+    "countries": ["CY"],
+    "is_active": true,
+    "created_at": "2026-06-20T11:31:00.373796+00:00"
+  },
+  {
+    "id": "00000000-0000-0000-0000-0000000000d2",
+    "name": "European Union",
+    "countries": ["AT","BE","BG","HR","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"],
+    "is_active": true,
+    "created_at": "2026-06-20T11:31:00.373796+00:00"
+  },
+  {
+    "id": "00000000-0000-0000-0000-0000000000d3",
+    "name": "Europe (non-EU)",
+    "countries": ["GB","CH","NO","IS","RS","MK","AL","BA","ME","TR","MD","UA","XK"],
+    "is_active": true,
+    "created_at": "2026-06-20T11:31:00.373796+00:00"
+  },
+  {
+    "id": "00000000-0000-0000-0000-0000000000d4",
+    "name": "Worldwide (Rest of World)",
+    "countries": [],
+    "is_active": true,
+    "created_at": "2026-06-20T11:31:00.373796+00:00"
+  }
+]

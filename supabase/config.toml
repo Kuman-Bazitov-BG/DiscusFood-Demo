@@ -1,0 +1,12 @@
+# Supabase project config for the Discus Fish DEMO.
+# project_id is set when you run `supabase link` to the demo project.
+project_id = "discus-fish-demo"
+
+[functions.checkout]
+# Public guest checkout — no Supabase JWT required (the function validates input
+# and looks up trusted prices itself).
+verify_jwt = false
+
+[functions.stripe-webhook]
+# Stripe calls this with its own signature, not a Supabase JWT.
+verify_jwt = false
