@@ -1,0 +1,10 @@
+# Netlify build config for the Discus Fish DEMO.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback so client-side routes (/Cataloge, /admin, …) resolve.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
